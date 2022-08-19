@@ -1,6 +1,0 @@
-
-Test case link:
-https://docs.google.com/spreadsheets/d/1E0WHjX9ciHuTquiywppRZ53fHL1qdCxL9JOWlnrIVWM/edit?usp=sharing
-
-URL for Demo site:
-https://www.saucedemo.com/
