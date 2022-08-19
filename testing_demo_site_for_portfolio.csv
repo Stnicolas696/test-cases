@@ -1,9 +1,61 @@
-﻿"ID","Title","Created By","Created On","Estimate","Forecast","Priority","References","Section","Section Depth","Section Description","Suite","Suite ID","Type","Updated By","Updated On"
-"C1","Log in with valid username and password","Dragan Nikolic","8/19/2022 10:53 AM","","","Critical","","Log in functionality","0","","Master","S1","Functional","Dragan Nikolic","8/19/2022 10:56 AM"
-"C2","Log in with invalid username and valid password","Dragan Nikolic","8/19/2022 10:58 AM","","","Critical","","Log in functionality","0","","Master","S1","Functional","Dragan Nikolic","8/19/2022 10:58 AM"
-"C3","Log in with valid username and invalid password","Dragan Nikolic","8/19/2022 10:59 AM","","","Critical","","Log in functionality","0","","Master","S1","Functional","Dragan Nikolic","8/19/2022 11:03 AM"
-"C4","Log in with invalid credentials - empty username and password field","Dragan Nikolic","8/19/2022 11:00 AM","","","Critical","","Log in functionality","0","","Master","S1","Functional","Dragan Nikolic","8/19/2022 11:00 AM"
-"C5","Log in with valid credentials - username and password","Dragan Nikolic","8/19/2022 11:01 AM","","","Critical","","Log in functionality","0","","Master","S1","Functional","Dragan Nikolic","8/19/2022 11:01 AM"
-"C6","Log in with valid credentials - username and password","Dragan Nikolic","8/19/2022 11:02 AM","","","Critical","","Log in functionality","0","","Master","S1","Functional","Dragan Nikolic","8/19/2022 11:02 AM"
-"C7","Log in with valid credentials - username and password","Dragan Nikolic","8/19/2022 11:02 AM","","","Critical","","Log in functionality","0","","Master","S1","Functional","Dragan Nikolic","8/19/2022 11:02 AM"
-"C8","Log in with a valid username and password field empty","Dragan Nikolic","8/19/2022 11:03 AM","","","Critical","","Log in functionality","0","","Master","S1","Functional","Dragan Nikolic","8/19/2022 11:03 AM"
+﻿"ID","Title","Created By","Created On","Estimate","Expected Result","Forecast","Preconditions","Priority","References","Section","Section Depth","Section Description","Steps","Steps (Additional Info)","Steps (Expected Result)","Suite","Suite ID","Type","Updated By","Updated On"
+"C1","Log in with valid username and password","Dragan Nikolic","8/19/2022 10:53 AM","","","","Log in page is already opened.
+User is already signed up.","Critical","","Log in functionality","0","","","1. 
+2. 
+3.","1. 
+2. 
+3. User is loged in and redirected to home page 
+
+URL: ""https://www.saucedemo.com/inventory.html""","Master","S1","Functional","Dragan Nikolic","8/19/2022 10:56 AM"
+"C2","Log in with invalid username and valid password","Dragan Nikolic","8/19/2022 10:58 AM","","","","Log in page opened ""https://www.saucedemo.com/""
+
+User is already signed up","Critical","","Log in functionality","0","","","1. 
+2. 
+3.","1. 
+2. 
+3. Error message apears 
+""Epic sadface: Username and password do not match 
+any user in this service""","Master","S1","Functional","Dragan Nikolic","8/19/2022 10:58 AM"
+"C3","Log in with valid username and invalid password","Dragan Nikolic","8/19/2022 10:59 AM","","","","""Log in page opened """"https://www.saucedemo.com/""""
+User is already signed up""","Critical","","Log in functionality","0","","","1. 
+2. 
+3.","1. 
+2. 
+3. ""Error message apears 
+""""Epic sadface: Username and password do not match 
+any user in this service""""""","Master","S1","Functional","Dragan Nikolic","8/19/2022 11:03 AM"
+"C4","Log in with invalid credentials - empty username and password field","Dragan Nikolic","8/19/2022 11:00 AM","","","","""Log in page opened """"https://www.saucedemo.com/""""
+User is already signed up""","Critical","","Log in functionality","0","","","1. 
+2. 
+3.","1. 
+2. 
+3. ""Error message apears 
+Epic sadface: Username is required""","Master","S1","Functional","Dragan Nikolic","8/19/2022 11:00 AM"
+"C5","Log in with valid credentials - username and password","Dragan Nikolic","8/19/2022 11:01 AM","","","","""Log in page opened """"https://www.saucedemo.com/""""
+User is already signed up""","Critical","","Log in functionality","0","","","1. 
+2. 
+3.","1. 
+2. 
+3. ""User is loged in and redirected to home page 
+URL: """"https://www.saucedemo.com/inventory.html""""""","Master","S1","Functional","Dragan Nikolic","8/19/2022 11:01 AM"
+"C6","Log in with valid credentials - username and password","Dragan Nikolic","8/19/2022 11:02 AM","","","","""Log in page opened """"https://www.saucedemo.com/""""
+User is already signed up""","Critical","","Log in functionality","0","","","1. 
+2. 
+3.","1. 
+2. 
+3. ""User is loged in and redirected to home page 
+URL: """"https://www.saucedemo.com/inventory.html""""""","Master","S1","Functional","Dragan Nikolic","8/19/2022 11:02 AM"
+"C7","Log in with valid credentials - username and password","Dragan Nikolic","8/19/2022 11:02 AM","","","","""Log in page opened """"https://www.saucedemo.com/""""
+User is already signed up""","Critical","","Log in functionality","0","","","1. 
+2. 
+3.","1. 
+2. 
+3. ""User is loged in and redirected to home page 
+URL: """"https://www.saucedemo.com/inventory.html""""""","Master","S1","Functional","Dragan Nikolic","8/19/2022 11:02 AM"
+"C8","Log in with a valid username and password field empty","Dragan Nikolic","8/19/2022 11:03 AM","","","","""Log in page opened """"https://www.saucedemo.com/""""
+User is already signed up""","Critical","","Log in functionality","0","","","1. 
+2. 
+3.","1. 
+2. 
+3. ""Error message apears 
+Epic sadface: Password is required""","Master","S1","Functional","Dragan Nikolic","8/19/2022 11:03 AM"
